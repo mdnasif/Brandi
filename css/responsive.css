@@ -1,0 +1,467 @@
+   /* Responsive code start */
+/* low resulation mobile phone--glaxy fold */
+@media (min-width: 279px) and (max-width: 319px){
+    .w-100 {
+        width: 100%!important;
+        /* height: 360px; */
+        height: 100vh;
+    }
+    .navbar-toggler {
+        color: #fff !important;
+    }
+    .navbar-collapse {
+        transition: 1s !important;
+        transition-timing-function: linear !important;
+        padding-top: 10px;
+    }
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: none !important;
+    }
+    .navbar-brand img {
+        width: 160px;
+    }
+    .carousel-dark .carousel-caption {
+        top: 55%;
+        display: block !important;
+    }
+    .carousel-caption h3 {
+        font-size: 14px;
+        margin: 0px 0 0px;
+    }
+    .carousel-caption h2 {
+        font-size: 20px;
+        line-height: 30px;
+        margin: 0px;
+    }
+    .carousel-caption p {
+        font-size: 10px;
+        margin-top: 10px;
+    }
+    .carousel-caption p:before, .carousel-caption p:after {
+        color: #0feb9e;
+        content: "____";
+        position: relative;
+        top: -4px;
+    }
+    .carousel-indicators {
+        display: block !important;
+        width: 40px;
+        height: 175px;
+        top: 100px !important;
+    }
+    .carousel-indicators > button {
+        font-size: 10px !important;
+        line-height: 15px !important;
+        width: 15px !important;
+        height: 15px !important;
+    }
+    .features-section {
+        padding: 50px 0px;
+    }
+    .service-icon {
+        padding: 7px 10px;
+        margin-left: 10px;
+        margin-top: 2px;
+    }
+    .fa-2x {
+        font-size: 24px !important;
+    }
+    .service-desc p {
+        line-height: 22px;
+        font-size: 12px;
+    }
+    .service-desc h3 {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .service-desc {
+        margin: 0px 0px 0px 70px;
+    }
+    .section-title h2 {
+        font-size: 20px;
+    }
+    .service-item {
+        margin-bottom: 20px;
+    }
+    .work-section {
+        padding: 50px 0px;
+    }
+    .section-title .sub-title {
+        margin: 35px 0px 40px;
+        font-weight: 500;
+        line-height: 22px;
+        font-size: 12px;
+    }
+    .inner-team {
+        width: 100%;
+    }
+    .inner-team img{
+        width: 100%;
+    }
+    .work-filter ul li {
+        display: block;
+        font-size: 12px;
+        padding: 5px 24px;
+        margin-bottom: 5px;
+    }
+    .work-filter ul li.active {
+        padding: 6px 10px;
+    }
+    .team-section {
+        padding: 50px 0px;
+    }
+    .col-lg-3.team-member {
+        margin-bottom: 25px;
+    }
+    .inner-team .overlay h5 {
+        margin: 20px 0px 10px;
+    }
+    .team-member h4 {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        margin: 15px 0 5px;
+    }
+    .parallax-overlay {
+        padding: 50px 0;
+    }
+    .counters-item {
+        margin-bottom: 30px;
+    }
+    .counters-item strong {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .counters-item i {
+        height: 120px;
+        width: 120px;
+        line-height: 120px;
+        padding: 0px;
+    }
+    .contact-section {
+        padding: 50px 0px;
+    }
+    .contact-social {
+        margin-top: 30px;
+        padding: 0px;
+        text-align: center;
+    }
+    .contact-social li {
+        display: inline-flex;
+        padding: 5px 12px 0px;
+    }    
+    .footer-section {
+        padding: 50px 0px;
+    }
+    .contact-section .contact-address h3 {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+    .contact-section .contact-address p {
+        font-size: 12px;
+        line-height: 22px;
+        margin-bottom: 8px;
+    }
+    .contact-form h3 {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .footer-section h6 {
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 1px;
+    }
+    .footer-single ul li {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .footer-single p{
+        font-size: 12px;
+    }
+    .footer-link{
+        padding-top: 40px;
+        padding-left: 15px;
+    }
+    .footer-section .copyright {
+        padding: 50px 0px 0px;
+        font-size: 12px;
+    }
+}
+/* most of the smartphone devices */
+@media (min-width: 320px) and (max-width: 480px){
+    .w-100 {
+        width: 100%!important;
+        /* height: 360px; */
+        height: 100vh;
+    }
+    .navbar-toggler {
+        color: #fff !important;
+    }
+    .navbar-collapse {
+        transition: 1s !important;
+        transition-timing-function: linear !important;
+        padding-top: 20px;
+    }
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: none !important;
+    }
+    .carousel-dark .carousel-caption {
+        top: 55%;
+        display: block !important;
+    }
+    .carousel-caption h3 {
+        font-size: 18px;
+        margin: 6px 0 6px;
+    }
+    .carousel-caption h2 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .carousel-caption p {
+        font-size: 14px;
+    }
+    .carousel-caption p:before, .carousel-caption p:after {
+        color: #0feb9e;
+        content: "______";
+        position: relative;
+        top: -5px;
+    }
+    .carousel-indicators {
+        display: block !important;
+        width: 40px;
+        height: 175px;
+        top: 95px !important;
+    }
+    .carousel-indicators > button {
+        font-size: 12px !important;
+        line-height: 20px !important;
+        width: 20px !important;
+        height: 20px !important;
+    }
+    .features-section {
+        padding: 60px 0px;
+    }
+    .section-title h2 {
+        font-size: 26px;
+    }
+    .service-item {
+        margin-bottom: 30px;
+    }
+    .work-section {
+        padding: 60px 0px;
+    }
+    .section-title .sub-title {
+        font-weight: 500;
+        line-height: 26px;
+        font-size: 16px;
+    }
+    .inner-team {
+        width: 100%;
+    }
+    .inner-team img{
+        width: 100%;
+    }
+    .work-filter ul {
+        text-align: left !important;
+    }
+    .work-filter ul li {
+        padding: 5px 2px;
+    }
+    .work-filter ul li.active {
+        padding: 6px 10px;
+    }
+    .team-section {
+        padding: 60px 0px;
+    }
+    .col-lg-3.team-member {
+        margin-bottom: 25px;
+    }
+    .inner-team .overlay h5 {
+        margin: 20px 0px 10px;
+    }
+    .team-member h4 {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        margin: 15px 0 5px;
+    }
+    .parallax-overlay {
+        padding: 60px 0;
+    }
+    .counters-item {
+        margin-bottom: 30px;
+    }
+    .contact-section {
+        padding: 60px 0px;
+    }
+    .contact-social {
+        margin-top: 30px;
+        padding: 0px;
+        text-align: center;
+    }
+    .contact-social li {
+        display: inline-flex;
+        padding: 5px 20px 0px;
+    }
+    .footer-section {
+        padding: 60px 0px;
+    }
+    .footer-section h6 {
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 2px;
+        letter-spacing: 1px;
+    }
+    .footer-link{
+        padding-top: 40px;
+        padding-left: 40px;
+    }
+}
+/* mobile phone and low resulation tablet */
+@media (min-width: 481px) and (max-width: 767px){
+    .w-100 {
+        width: 100%!important;
+        /* height: 360px; */
+        height: 100vh !important;
+    }
+    .navbar-toggler .fa-bars{
+        color: #fff;
+        font-size: 20px;
+    }
+    .navbar-collapse {
+        transition: 1s !important;
+        transition-timing-function: linear !important;
+        padding-top: 20px;
+    }
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: none !important;
+    }
+    .carousel-dark .carousel-caption {
+        top: 50%;
+        display: block !important;
+    }
+    .carousel-caption h3 {
+        font-size: 25px;
+        margin: 6px 0 16px;
+    }
+    .carousel-caption h2 {
+        font-size: 45px;
+        line-height: 55px;
+    }
+    .carousel-caption p {
+        font-size: 14px;
+    }
+    .carousel-caption p:before, .carousel-caption p:after {
+        color: #0feb9e;
+        content: "______";
+        position: relative;
+        top: -6px;
+    }
+    .carousel-indicators {
+        display: block !important;
+        width: 40px;
+        height: 175px;
+        top: 120px !important;
+    }
+    .carousel-indicators > button {
+        font-size: 12px !important;
+        line-height: 20px !important;
+        width: 20px !important;
+        height: 20px !important;
+    }
+    .inner-team {
+        width: 100%;
+    }
+    .inner-team img{
+        width: 100%;
+    }
+    .inner-team .overlay h5 {
+        font-size: 30px;
+        line-height: 40px;
+        margin: 20px 0;
+    }
+    .inner-team .overlay p{
+        font-size: 20px;
+    }
+    .team-member h4 {
+        color: #062033;
+        font-size: 26px;
+        line-height: 26px;
+        margin: 15px 0 14px;
+    }
+    .col-lg-3.team-member {
+        margin-bottom: 20px;
+    }
+    .footer-single.footer-link {
+        padding-left: 75px;
+    }
+    .footer-section h6 {
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 5px;
+    }
+}
+  /* tablet, notebook */
+  @media (min-width: 768px) and (max-width: 1024px){
+    .w-100 {
+        width: 100%!important;
+        /* height: 360px; */
+        height: 100vh !important;
+    }
+    .navbar-toggler .fa-bars{
+        color: #fff;
+        font-size: 25px;
+    }
+    .navbar-collapse {
+        transition: 1s !important;
+        transition-timing-function: linear !important;
+        padding-top: 20px;
+    }
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: none !important;
+    }
+    .carousel-dark .carousel-caption {
+        top: 50%;
+        display: block !important;
+    }
+    .carousel-caption p:before, .carousel-caption p:after {
+        color: #0feb9e;
+        content: "______";
+        position: relative;
+        top: -6px;
+    }
+    .carousel-indicators {
+        width: 70px;
+        top: 70px !important;
+    }
+    .carousel-caption h2 {
+        font-size: 60px;
+    }
+    .carousel-caption h3 {
+        font-size: 40px;
+        margin: 5px 0 15px;
+    }
+    .inner-team {
+        width:100%;
+    }
+    .inner-team img{
+        width: 100%;
+    }
+    .col-lg-3.col-md-6.team-member {
+        margin-bottom: 20px;
+    }
+    .counters-item p {
+        font-size: 16px;
+    }
+  }
